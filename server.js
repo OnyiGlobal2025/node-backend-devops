@@ -5,7 +5,7 @@ const PORT = 3000;
 
 // Home route
 app.get("/", (req, res) => {
-  res.send("Node.js backend is running 🚀");
+  res.send("Node.js backend is running 🚀CI/CD working");
 });
 
 // Health check (DevOps standard)
