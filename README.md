@@ -122,8 +122,12 @@ The backend exposes a health endpoint used for validation and monitoring:
 GET /health
 
 Response:
+
 ```json
-{ "status": "ok" }
+{
+  "status": "ok"
+}
+
 
 
 
