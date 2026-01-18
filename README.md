@@ -115,44 +115,40 @@ This removes the need for manual SSH-based deployments.
 
 ---
 
-## 🧪 Health Check Endpoint
 
-The backend exposes a health endpoint used for validation and monitoring:
 
-GET /health
+---
 
-Response:
+
+## Health Check Endpoint
+
+**GET** `/health`
+
+**Response:**
 
 ```json
 {
   "status": "ok"
 }
 
----
-
 
 ##  Screenshots
 
-### Live HTTPS Health Check
-![HTTPS Health Check](docs/screenshots/https-health-check.png)
+Live HTTPS Health Check
 
-### CI/CD Pipeline (GitHub Actions)
-![GitHub Actions](docs/screenshots/github-actions-success.png)
+CI/CD Pipeline (GitHub Actions)
 
-### EC2 Instance Running
-![EC2 Instance](docs/screenshots/ec2-instance-running.png)
+EC2 Instance Running
 
-### Docker Container Running
-![Docker Container](docs/screenshots/docker-container-running.png)
+Docker Container Running
 
-### PM2 Process Status
-![PM2 Status](docs/screenshots/pm2-status.png)
+PM2 Process Status
 
 
 ---
 
 
-## Key Learnings
+##  Key Learnings
 
 Difference between local development and production deployment
 
