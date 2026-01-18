@@ -149,17 +149,17 @@ This removes the need for manual SSH-based deployments.
 
 ### Key Learnings
 
--Difference between local development and production deployment
+1.Difference between local development and production deployment
 
--Why reverse proxies are used in front of backend services
+2.Why reverse proxies are used in front of backend services
 
--How HTTPS terminates at Nginx instead of the application
+3.How HTTPS terminates at Nginx instead of the application
 
--Importance of separating human access from CI/CD automation
+4.Importance of separating human access from CI/CD automation
 
--Debugging container restart loops using logs
+5.Debugging container restart loops using logs
 
--How CI/CD pipelines reduce deployment risk and manual work
+6.How CI/CD pipelines reduce deployment risk and manual work
 
 
 ### Notes
