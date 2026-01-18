@@ -147,7 +147,7 @@ Response:
 ![PM2 Status](docs/screenshots/pm2-status.png)
 
 
- Key Learnings
+## Key Learnings
 
 Difference between local development and production deployment
 
