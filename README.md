@@ -127,17 +127,23 @@ This removes the need for manual SSH-based deployments.
 }
 ```
 
-###  Screenshots
+### Screenshots
 
-Live HTTPS Health Check
+- **Live HTTPS Health Check**
+  ![HTTPS Health Check](docs/screenshots/https-health-check.png)
 
-CI/CD Pipeline (GitHub Actions)
+- **CI/CD Pipeline (GitHub Actions)**
+  ![GitHub Actions](docs/screenshots/github-actions-success.png)
 
-EC2 Instance Running
+- **EC2 Instance Running**
+  ![EC2 Instance](docs/screenshots/ec2-instance-running.png)
 
-Docker Container Running
+- **Docker Container Running**
+  ![Docker Container](docs/screenshots/docker-container-running.png)
 
-PM2 Process Status
+- **PM2 Process Status**
+  ![PM2 Status](docs/screenshots/pm2-status.png)
+
 
 ---
 
