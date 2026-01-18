@@ -125,6 +125,7 @@ This removes the need for manual SSH-based deployments.
 {
   "status": "ok"
 }
+```
 
 ###  Screenshots
 
