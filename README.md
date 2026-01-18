@@ -125,24 +125,20 @@ This removes the need for manual SSH-based deployments.
 {
   "status": "ok"
 }
-##  Screenshots
+##   Screenshots
 
-### Live HTTPS Health Check
-![HTTPS Health Check](docs/screenshots/https-health-check.png)
+Live HTTPS Health Check
 
-### CI/CD Pipeline (GitHub Actions)
-![GitHub Actions](docs/screenshots/github-actions-success.png)
+CI/CD Pipeline (GitHub Actions)
 
-### EC2 Instance Running
-![EC2 Instance](docs/screenshots/ec2-instance-running.png)
+EC2 Instance Running
 
-### Docker Container Running
-![Docker Container](docs/screenshots/docker-container-running.png)
+Docker Container Running
 
-### PM2 Process Status
-![PM2 Status](docs/screenshots/pm2-status.png)
+PM2 Process Status
 
 
+---
 
 ##  Key Learnings
 
@@ -159,13 +155,13 @@ Debugging container restart loops using logs
 How CI/CD pipelines reduce deployment risk and manual work
 
 
- Notes
+## Notes
 
-This project was built as a learning-focused DevOps portfolio project.
-It reflects real production patterns while remaining beginner-friendly and transparent.
+This project was built to simulate a real-world backend deployment scenario rather than a local or demo setup.
+All deployments are automated using CI/CD to reduce manual intervention and configuration drift.
+Security best practices such as HTTPS, reverse proxying, and restricted access to application ports were applied.
 
 
- Author
-
+## Author
 Built by [Onyedika Okoro]
 Cloud / DevOps Engineer (Early Career)
