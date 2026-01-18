@@ -115,18 +115,16 @@ This removes the need for manual SSH-based deployments.
 
 ---
 
-##  Health Check Endpoint
+## 🧪 Health Check Endpoint
 
 The backend exposes a health endpoint used for validation and monitoring:
 
 GET /health
 
-css
-Copy code
-
 Response:
 ```json
 { "status": "ok" }
+
 
 
 ##  Screenshots
