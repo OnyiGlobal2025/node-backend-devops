@@ -150,7 +150,7 @@ PM2 Process Status
 
 -Importance of separating human access from CI/CD automation
 
-Debugging container restart loops using logs
+-Debugging container restart loops using logs
 
 -How CI/CD pipelines reduce deployment risk and manual work
 
