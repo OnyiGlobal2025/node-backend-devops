@@ -128,7 +128,7 @@ Response:
   "status": "ok"
 }
 
-
+---
 
 
 ##  Screenshots
@@ -149,6 +149,9 @@ Response:
 ![PM2 Status](docs/screenshots/pm2-status.png)
 
 
+---
+
+
 ## Key Learnings
 
 Difference between local development and production deployment
@@ -164,11 +167,15 @@ Debugging container restart loops using logs
 How CI/CD pipelines reduce deployment risk and manual work
 
 
+---
+
  Notes
 
 This project was built as a learning-focused DevOps portfolio project.
 It reflects real production patterns while remaining beginner-friendly and transparent.
 
+
+---
 
  Author
 
