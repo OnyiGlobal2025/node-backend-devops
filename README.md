@@ -101,7 +101,7 @@ This removes the need for manual SSH-based deployments.
 ├── Dockerfile
 ├── ecosystem.config.js
 ├── server.js
-├── package.json
+├── package.json     
 ├── package-lock.json
 ├── .gitignore
 ├── .dockerignore
@@ -136,7 +136,7 @@ This removes the need for manual SSH-based deployments.
   ![GitHub Actions](docs/screenshots/github-actions-success.png)
 
 - **EC2 Instance Running**
-  ![EC2 Instance](docs/screenshots/ec2-instance-running.png)
+  ![EC2 Instance](docs/screenshots/ec2-instance-running.png)  
 
 - **Docker Container Running**
   ![Docker Container](docs/screenshots/docker-container-running.png)
