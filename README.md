@@ -104,7 +104,7 @@ This removes the need for manual SSH-based deployments.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 node-backend-devops/
