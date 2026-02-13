@@ -23,23 +23,31 @@ The goal of this project is not just to “make it work”, but to understand **
 
 > Diagram created with **draw.io** to visualize traffic flow and infrastructure components.
 
-### Traffic Flow
 
+##  Traffic Flow
+
+```
 Client
-│
-│ HTTPS (443)
-▼
+   │
+   ▼
+HTTPS (443)
+   │
+   ▼
 Nginx (Reverse Proxy)
-│
-│ HTTP (internal)
-▼
+   │
+   ▼
+HTTP (Internal)
+   │
+   ▼
 Docker Container
-│
-▼
+   │
+   ▼
 PM2 (Process Manager)
-│
-▼
+   │
+   ▼
 Node.js Backend (Port 3000)
+```
+
 
 
 ---
@@ -96,21 +104,26 @@ This removes the need for manual SSH-based deployments.
 
 ---
 
-##  Project Structure
+## 📁 Project Structure
 
+```
+node-backend-devops/
 ├── Dockerfile
 ├── ecosystem.config.js
 ├── server.js
-├── package.json     
+├── package.json
 ├── package-lock.json
 ├── .gitignore
 ├── .dockerignore
 ├── .github/
-│ └── workflows/
-│ └── deploy.yml
-└── docs/
-├── architecture.png
-└── screenshots
+│   └── workflows/
+│       └── deploy.yml
+├── docs/
+│   ├── architecture.png
+│   └── screenshots/
+└── README.md
+```
+
 
 
 ---
