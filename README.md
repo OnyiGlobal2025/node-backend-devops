@@ -1,6 +1,16 @@
 # Node.js Backend Deployment on AWS EC2  
 (Docker, Nginx, HTTPS, CI/CD, PM2)
 
+![Node.js](https://img.shields.io/badge/Node.js-Backend-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![AWS EC2](https://img.shields.io/badge/AWS_EC2-Deployment-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Containerized-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-Reverse_Proxy-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![HTTPS](https://img.shields.io/badge/HTTPS-Secured-success?style=for-the-badge&logo=letsencrypt&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-Automated_Deployments-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![PM2](https://img.shields.io/badge/PM2-Process_Manager-2B037A?style=for-the-badge)
+![Cloud Native](https://img.shields.io/badge/Cloud--Native-Production_Aligned-blueviolet?style=for-the-badge)
+
+
 This project demonstrates a **production-style deployment** of a Node.js backend application on AWS EC2.  
 It focuses on how backend services are **containerized, secured, and automatically deployed** using modern DevOps practices.
 
